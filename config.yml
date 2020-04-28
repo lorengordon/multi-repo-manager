@@ -1,0 +1,42 @@
+project_name:
+  # root level folder each repo will be cloned into
+  tardigrade-ci
+repos:
+  # list of repos to target during the clone operation
+  - terraform-aws-tardigrade-cloudtrail
+  - terraform-aws-tardigrade-config-rules
+  - terraform-aws-tardigrade-guardduty
+  - terraform-aws-tardigrade-pcx
+  - terraform-aws-tardigrade-inspector
+  - terraform-aws-tardigrade-keystore
+  - terraform-aws-tardigrade-route53-subzone
+  - terraform-aws-tardigrade-config
+  - terraform-aws-tardigrade-iam-account
+  - terraform-aws-tardigrade-directory-service
+  - terraform-aws-tardigrade-vpc-endpoints
+  - terraform-aws-tardigrade-vpn-connection
+  - terraform-aws-tardigrade-config-aggregator
+  - terraform-aws-tardigrade-security-group
+  - terraform-aws-tardigrade-iam-principals
+  - terraform-aws-tardigrade-s3-bucket
+  - terraform-aws-tardigrade-vpc-flow-log
+  - terraform-aws-tardigrade-route53-rr-association
+  - terraform-aws-tardigrade-ram-principal-association
+  - terraform-aws-tardigrade-iam-identity-provider
+  - terraform-aws-tardigrade-transit-gateway-attachment
+  - terraform-aws-tardigrade-kms
+  - terraform-aws-tardigrade-acm
+  - terraform-aws-tardigrade-cloudwatch-log-metric-filter
+  - terraform-aws-tardigrade-cloudwatch-metric-alarms
+  - terraform-aws-ldap-maintainer
+  - terraform-aws-wrangler
+  - utils
+  - terraform-external-file-cache
+  - terraform-aws-codecommit-pr-reminders
+  - terraform-null-validate-list-item
+  - terraform-aws-watchmaker
+  - terraform-github-repo
+  - terraform-aws-org-new-account-trust-policy
+github_org:
+  # github organization where the target repos reside
+  plus3it
